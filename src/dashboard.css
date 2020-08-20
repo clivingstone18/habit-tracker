@@ -1,0 +1,88 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid gray;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.habitsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.habit {
+  border: 1px solid black;
+  border-radius: 30px;
+  background: #d3c7e9;
+  box-shadow: 2px 2px gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+  height: 80px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: green;
+}
+
+button {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 15px;
+
+  box-shadow: 2px 2px #ddd;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.check-icon {
+  transform: scale(2);
+  color: green;
+}
+
+.checked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
